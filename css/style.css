@@ -76,6 +76,11 @@ body{
     font-weight: 700;
     font-size: 15px;
     padding-right: 10px;
+    transition: .5s;
+}
+.plan > a:hover{
+    text-decoration: none;
+    opacity: 0.7;
 }
 .plan__content{
     display: flex;
@@ -106,12 +111,22 @@ body{
     border-radius: 10px;
     color: white;
     font-weight: 900;
+    transition: .5s;
+}
+.pay > button:hover{
+    opacity: 0.7;
+    cursor: pointer;
 }
 .pay > p {
     text-align: center;
     margin: 10px 0;
     color: var(--desaturatedBlue);
     font-weight: 700;
+    transition: .5s;
+}
+.pay > p:hover{
+    color: var(--darkBlue);
+    cursor: pointer;
 }
 @media(min-width: 767px){
     body{
